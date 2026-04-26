@@ -14,11 +14,14 @@ It showcases a visually engaging UI with media-rich content, designed to present
 🖼️ Rich media support (images & videos)
 🔄 Smooth user experience
 📱 Mobile-friendly design
-🛠️ Tech Stack
+
+Tech Stack
 Frontend: React 19, TypeScript
 Build Tool: Vite
 Styling: CSS
 Linting: ESLint
+
+
 📂 Project Structure
 HireMyIdea/
 │── public/
@@ -30,6 +33,7 @@ HireMyIdea/
 │── index.html
 │── package.json
 │── vite.config.ts
+
 ⚙️ Getting Started
 1. Clone the repository
 git clone https://github.com/DhanushkumarAR/HireMyIdeaAssesment.git
@@ -47,6 +51,7 @@ This project is deployed using GitHub Pages.
 To deploy:
 
 npm run deploy
+
 ⚠️ Notes
 Some assets (images/videos) are large, which may affect performance.
 Future improvements can include:
