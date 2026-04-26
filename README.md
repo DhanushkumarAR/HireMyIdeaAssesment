@@ -54,17 +54,19 @@ npm run deploy
 
 ⚠️ Notes
 Some assets (images/videos) are large, which may affect performance.
+
 Future improvements can include:
 Image optimization
 Lazy loading
 CDN integration
+
 📈 Future Enhancements
 🔐 Authentication system
 🌐 Backend integration
 🎯 Improved animations
 ⚡ Performance optimization
-🙌 Author
 
+🙌 Author
 Dhanush Kumar
 
 ⭐ If you like this project
