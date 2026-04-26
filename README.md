@@ -1,75 +1,67 @@
-# React + TypeScript + Vite
+🚀 HireMyIdea
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 Live Demo:
+https://dhanushkumarar.github.io/HireMyIdeaAssesment/
 
-Currently, two official plugins are available:
+📌 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+HireMyIdea is a modern web application built using React + TypeScript + Vite.
+It showcases a visually engaging UI with media-rich content, designed to present ideas, products, or concepts in an interactive way.
 
-## React Compiler
+✨ Features
+⚡ Fast performance with Vite
+🎨 Clean and responsive UI
+🖼️ Rich media support (images & videos)
+🔄 Smooth user experience
+📱 Mobile-friendly design
+🛠️ Tech Stack
+Frontend: React 19, TypeScript
+Build Tool: Vite
+Styling: CSS
+Linting: ESLint
+📂 Project Structure
+HireMyIdea/
+│── public/
+│── src/
+│   ├── assets/        # Images & videos
+│   ├── App.tsx        # Main component
+│   ├── main.tsx       # Entry point
+│   └── styles
+│── index.html
+│── package.json
+│── vite.config.ts
+⚙️ Getting Started
+1. Clone the repository
+git clone https://github.com/DhanushkumarAR/HireMyIdeaAssesment.git
+cd HireMyIdeaAssesment
+2. Install dependencies
+npm install
+3. Run locally
+npm run dev
+4. Build for production
+npm run build
+🚀 Deployment
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+This project is deployed using GitHub Pages.
 
-Note: This will impact Vite dev & build performances.
+To deploy:
 
-## Expanding the ESLint configuration
+npm run deploy
+⚠️ Notes
+Some assets (images/videos) are large, which may affect performance.
+Future improvements can include:
+Image optimization
+Lazy loading
+CDN integration
+📈 Future Enhancements
+🔐 Authentication system
+🌐 Backend integration
+🎯 Improved animations
+⚡ Performance optimization
+🙌 Author
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Dhanush Kumar
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+⭐ If you like this project
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Give it a star on GitHub and share your feedback!
