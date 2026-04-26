@@ -211,9 +211,9 @@ function ChevronDownIcon() {
   )
 }
 
-function RatingStars() {
+/*function RatingStars() {
   return <span className="rating-stars">★★★★★</span>
-}
+}*/
 
 function BulletList({ items }: { items: readonly string[] }) {
   return (
